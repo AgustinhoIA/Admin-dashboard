@@ -71,11 +71,17 @@ body {
 /*HEADBAR SECCTION */
 .headbar {
     grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    /* flex-direction: column; */
     background-color: brown;
+    grid-template-rows: 1fr 1fr;
 }
 
 .headbar-top {
-
+    display: flex;
+    justify-content: space-between;
+    grid-row: 1/2;
+    border: 2px solid black;
 }
 
 .search-bar {
@@ -99,11 +105,14 @@ body {
 }
 
 .headbar-bottom {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .user-handle {
-
+    display: flex;
 }
 
 .handle-container {
@@ -130,20 +139,28 @@ body {
 .content {
     grid-area: 2 / 2 / 3 / 4;
     background-color: green;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column: 1 / 2;
+    gap: 20px;
+    padding: 15px;
 
 }
 
 .card {
-
+    border: 3px solid white;
 }
 
 .related-info {
     display: flex;
-
+    flex-direction: column;
+    grid-column: 2 / 3;
 }
 .announcements-container {
 
