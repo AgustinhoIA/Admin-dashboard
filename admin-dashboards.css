@@ -22,6 +22,7 @@ body {
     grid-row: 1 / 2 ;
     display: flex;
     flex-direction: column;
+    border: 2px solid black;
 }
 
 .sidebar button {
@@ -33,6 +34,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    border: 2px solid black;
 }
 
 .homeBtn {
@@ -44,9 +46,10 @@ body {
 }
 
 .navegation {
-    grid-row: 3 /6;
+    grid-row: 3 / 6;
     display: flex;
     flex-direction: column;
+    gap: 3px;
     
 }
 
@@ -56,9 +59,9 @@ body {
 }
 
 .extra-options {
-    grid-row: 7 / 9;
-    display: flex;
-    flex-direction: column;
+    grid-row: 7 / 8;
+    display: grid;
+    grid-template-rows: 1fr 5px 1fr 5px 1fr
     height: 100%;
 }
 
