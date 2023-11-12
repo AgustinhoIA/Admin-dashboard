@@ -85,30 +85,47 @@ body {
 
 .headbar-top {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
     justify-content: space-between;
     grid-row: 1/2;
     border: 2px solid black;
 }
 
 .search-bar {
-
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    padding: 10px 20px 5px 10px;
 }
 
 #universal-search {
-
+    grid-column: 2/3;
+    height: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: lightgray;
 }
 
 .profile-navegation {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    padding: 10px 40px 5px 30px;
+    height: 30px;
+    width: 250px;
+    gap: 10px;
+    justify-self: end;
 
 }
 
 .alert {
+    width: 25px;
+    height: 25px;
+    border: 1px solid lightgray;
 
 }
 
 .user-profile {
-
+    border: 1px solid white;
 }
 
 .headbar-bottom {
