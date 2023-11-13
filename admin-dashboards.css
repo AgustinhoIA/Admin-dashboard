@@ -154,11 +154,15 @@ body {
 }
 
 .media-buttons {
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .medBtn {
-
+    place-self: center;
+    height: 50px;
+    width: 110px;
+    border-radius: 35px;
 }
 
 /* CONTENT SECCTION*/
