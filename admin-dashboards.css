@@ -80,7 +80,7 @@ body {
     grid-area: 1 / 2 / 2 / 3;
     display: grid;
     background-color: brown;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 2fr 3fr;
 }
 
 .headbar-top {
@@ -130,14 +130,15 @@ body {
 
 .headbar-bottom {
     height: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 55% 45%;
     background-color: chocolate;
 
 }
 
 .user-handle {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
 }
 
 .handle-container {
