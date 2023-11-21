@@ -61,9 +61,13 @@ body {
 
 .navBtn {
     height: 100%;
-    
 }
 
+.navBtn img,
+.setBtn img {
+    max-width: 50%;
+    height: auto;
+}
 .extra-options {
     grid-row: 7 / 8;
     display: grid;
