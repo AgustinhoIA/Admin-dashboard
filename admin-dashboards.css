@@ -262,6 +262,7 @@ body {
     display: grid;
     grid-row: 1/2;
     padding: 0 5px 5px 5px;
+    background-color: var(--content);
 }
 
 .announcements-container {
@@ -269,11 +270,10 @@ body {
     grid-template-rows: repeat(3, 1fr);
     grid-row: 1/2;
     gap: 5px;
-    background-color: var(--content);
 }
 
 .announcement {
-    
+    padding-left: 5px;
 }
 
 .announcement-title {
@@ -281,16 +281,22 @@ body {
 }
 
 .trending {
-    padding: 5px 5px 0 5px;
     display: grid;
     grid-row: 2/3;
-    background-color: var(--content);
+    grid-template-rows: 25px 1fr;
+}
+
+.trending h3 {
+    padding-left: 5px;
 }
 
 .trending-container {
+    padding-left: 5px;
     display: grid;
-    grid-template-rows: 15px repeat(4, 1fr);
+    width: 100%;
+    grid-template-rows: repeat(4, 1fr);
     gap: 5px;
+    background-color: var(--content);
 }
 
 .trending-profile{
