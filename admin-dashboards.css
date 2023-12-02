@@ -55,11 +55,6 @@ body {
     font-size: 24px;
     font-weight: 700;
     gap: 15px;
-    padding: 20px;
-}
-
-#homeImg {
-    
 }
 
 .navegation {
@@ -83,8 +78,9 @@ body {
     place-self: center;
 }
 
-.navBtn img {
-    height: 50%;
+.navBtn img,
+.setBtn img {
+    height: 6cap;
     margin: 0;
     padding: 0;
     align-self: center;
