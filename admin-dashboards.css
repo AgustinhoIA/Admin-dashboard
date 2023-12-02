@@ -150,8 +150,8 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
 }
 
 .user-profile {
@@ -171,7 +171,7 @@ body {
     font-weight: 700;
 }
 
-.user-profile img {
+.user-pfp {
     width: 55px;
     height: 55px;
     border-radius: 75px;
@@ -188,19 +188,36 @@ body {
 
 .user-handle {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 80%;
+    justify-content: flex-start;
+}
+
+.bigUser-pfp {
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    align-self: center;
+    justify-self: center;
 }
 
 .handle-container {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.greetings {
-
+.greeting {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .handle {
-
+    font-size: 20PX;
+    font-weight: 900;
+    margin-top: 10px;
+    align-self: flex-end;
 }
 
 .media-buttons {
