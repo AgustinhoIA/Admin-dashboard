@@ -136,16 +136,46 @@ body {
     height: 30px;
     width: 250px;
     gap: 10px;
+    padding: 10px;
     justify-self: end;
+    place-items: center;
 }
 
 .alert {
-    width: 25px;
-    height: 25px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
 }
 
 .user-profile {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
 
+.user-profile img {
+    width: 55px;
+    height: 55px;
+    border-radius: 75px;
+    align-self: baseline;
 }
 
 .headbar-bottom {
@@ -180,9 +210,9 @@ body {
 
 .medBtn {
     place-self: center;
-    height: 50px;
-    width: 110px;
-    border-radius: 35px;
+    height: 45px;
+    width: 100px;
+    border-radius: 40px;
     background-color: var(--sidebar);
 }
 
